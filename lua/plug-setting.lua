@@ -178,7 +178,7 @@ require('telescope').load_extension('fzf')
 require("autoclose").setup()
 
 require'nvim-treesitter.configs'.setup {
-  ensure_installed = { "c", "lua", "vim", "help", "query" },
+  ensure_installed = { "c", "lua", "vim", "query" },
   sync_install = false,
   auto_install = true,
   --ignore_install = { "javascript" },
