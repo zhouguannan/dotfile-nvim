@@ -59,6 +59,8 @@ require("lazy").setup({
     "ahmedkhalf/project.nvim",
     'kevinhwang91/nvim-bqf',
     'kdheepak/lazygit.nvim',
+    "kylechui/nvim-surround",
+    "Pocco81/auto-save.nvim",
 })
 require "plug-setting"
 require "lsp"

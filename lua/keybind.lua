@@ -4,6 +4,7 @@ vim.keymap.set('n', '<A-,>', '<Cmd>bp<CR>')
 vim.keymap.set('n', '<A-.>', '<Cmd>bn<CR>')
 vim.keymap.set('n', '<A-/>', '<Cmd>bdelete<CR>')
 vim.keymap.set('n', '<A-t>', '<Cmd>ToggleTerm<CR>')
+vim.keymap.set('n', 'd', '"_d')
 
 local keymap = vim.keymap.set
 
