@@ -61,6 +61,8 @@ require("lazy").setup({
     'kdheepak/lazygit.nvim',
     "kylechui/nvim-surround",
     "Pocco81/auto-save.nvim",
+    "nvim-neotest/nvim-nio",
+    'ellisonleao/gruvbox.nvim'
 })
 require "plug-setting"
 require "lsp"

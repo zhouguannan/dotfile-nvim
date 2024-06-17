@@ -203,10 +203,7 @@ require'nvim-treesitter.configs'.setup {
 
 require 'colorizer'.setup()
 
-require("indent_blankline").setup {
-    show_current_context = true,
-    show_current_context_start = true,
-}
+require("ibl").setup()
 
 require('Comment').setup({
     ---Add a space b/w comment and the line
