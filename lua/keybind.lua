@@ -1,9 +1,9 @@
-vim.keymap.set('n', '<A-f>', '<Cmd>NvimTreeToggle<CR>')
+vim.keymap.set('n', '<C-f>', '<Cmd>NvimTreeToggle<CR>')
 vim.keymap.set('n', '<leader>h', '<Cmd>HopWord<CR>')
-vim.keymap.set('n', '<A-,>', '<Cmd>bp<CR>')
-vim.keymap.set('n', '<A-.>', '<Cmd>bn<CR>')
-vim.keymap.set('n', '<A-/>', '<Cmd>bdelete<CR>')
-vim.keymap.set('n', '<A-t>', '<Cmd>ToggleTerm<CR>')
+vim.keymap.set('n', '<C-,>', '<Cmd>bp<CR>')
+vim.keymap.set('n', '<C-.>', '<Cmd>bn<CR>')
+vim.keymap.set('n', '<C-/>', '<Cmd>bdelete<CR>')
+vim.keymap.set('n', '<C-t>', '<Cmd>ToggleTerm<CR>')
 vim.keymap.set('n', 'd', '"_d')
 
 local keymap = vim.keymap.set
