@@ -1,6 +1,10 @@
-vim.cmd[[colorscheme tokyonight-night]]
-
-require'alpha'.setup(require'alpha.themes.startify'.config)
+vim.cmd[[colorscheme catppuccin-mocha]]
+-- vim.g.rustfmt_autosave = 1
+local startify = require("alpha.themes.startify")
+startify.file_icons.provider = "devicons"
+require("alpha").setup(
+    startify.config
+)
 require('lualine').setup {
   options = {
     icons_enabled = true,

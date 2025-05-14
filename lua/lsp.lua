@@ -30,6 +30,7 @@ require('mason-tool-installer').setup {
     'shfmt',
     'staticcheck',
     'vint',
+    'codelldb',
   },
   auto_update = false,
   run_on_start = true,

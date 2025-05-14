@@ -18,6 +18,7 @@ require "options"
 require("lazy").setup({
 	"folke/lazy.nvim",
 	"goolord/alpha-nvim",
+    { "catppuccin/nvim", name = "catppuccin", priority = 1000 },
 	"folke/tokyonight.nvim",
 	"kyazdani42/nvim-web-devicons",
     "nvim-lualine/lualine.nvim",
@@ -39,6 +40,7 @@ require("lazy").setup({
     'hrsh7th/nvim-cmp',
     'L3MON4D3/LuaSnip',
     'saadparwaiz1/cmp_luasnip',
+    'rust-lang/rust.vim',
     'numToStr/Comment.nvim',
     'RRethy/vim-illuminate',
     "williamboman/mason.nvim",
@@ -46,6 +48,7 @@ require("lazy").setup({
     'mhartington/formatter.nvim',
     "folke/trouble.nvim",
     "glepnir/lspsaga.nvim",
+    "jay-babu/mason-nvim-dap.nvim",
     'WhoIsSethDaniel/mason-tool-installer.nvim',
     "onsails/lspkind.nvim",
     "folke/neodev.nvim",
@@ -62,7 +65,15 @@ require("lazy").setup({
     "kylechui/nvim-surround",
     "Pocco81/auto-save.nvim",
     "nvim-neotest/nvim-nio",
-    'ellisonleao/gruvbox.nvim'
+    'ellisonleao/gruvbox.nvim',
+    {
+    'saecki/crates.nvim',
+    tag = 'stable',
+    config = function()
+        require('crates').setup()
+    end,
+    },
+    'simrat39/rust-tools.nvim',
 })
 require "plug-setting"
 require "lsp"
